@@ -3,3 +3,5 @@ This is a simple Go service that listens for all requests on port :8080 and prin
 <br />GET http://localhost:8080/test
 <br />Response: `{ "path": "/test" }`
 <br />It also exposes prometheus metrics on port :9090.
+# Docker image
+Docker image is available on hub.docker.com as `deepnekro/go-perf:0.0.4`
